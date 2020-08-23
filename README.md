@@ -1,14 +1,7 @@
-<p align="center">
-  <img src="https://codingly-assets.s3-eu-west-1.amazonaws.com/Codingly+Logo.png" width="200px" height="200px"/>
-  </br>
-  <a href="https://codingly.io">codingly.io</a>
-  <br/>
-</p>
 <h1 align="center">Serverless Framework Auth0 Authorizer</h1>
 <p align="center">
   <i><strong>A modern, ES6-friendly Lambda Authorizer ready for integration with Serverless Framework and Auth0.</strong></i>
   <br/>
-  Based on the <a href="https://github.com/serverless/examples/tree/master/aws-node-auth0-custom-authorizers-api">serverless/examples/aws-node-auth0-custom-authorizers-api</a> example.
 </p>
 
 ## Features
@@ -60,7 +53,7 @@ You should be good to go!
 
 <hr/>
 
-## Bonus: Cross-stack authorization
+## Cross-stack authorization
 
 This is very useful in a microservices setup. For example, you have an Auth Service (this service) which owns anything auth/user-related, and a bunch of other services that require user authorization.
 Fear not, it is very easy to make your authorizer work anywhere else in your AWS account.
